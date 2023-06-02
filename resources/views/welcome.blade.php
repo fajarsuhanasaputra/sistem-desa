@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sistem Administrasi & Informasi Desa</title>
+    <title>Sistem Informasi Pelayanan Administrasi Desa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="/">SAID</a>
+            <a class="navbar-brand" href="/">SIPAD</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,10 +43,10 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ asset('slide/satu.png') }}" class="d-block w-100" alt="...">
+                <img src="{{ asset('slide/tiga.png') }}" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('slide/dua.png') }}" class="d-block w-100" alt="...">
+                <img src="{{ asset('slide/tiga.png') }}" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('slide/tiga.png') }}" class="d-block w-100" alt="...">
@@ -68,11 +68,8 @@
     <div class="card">
         <p></p>
         <div class="container">
-            <p class="fs-3">Tentang Desa Sukasari</p>
-            <p class="text-sm-start">Desa Sukasari, Kec.Arahan, Kab.Indramayu merupakan salah satu Desa yang ada di
-                Kabupaten Indramayu yang cukup luas sekitar 4.715 km², dengan jumlah penduduk sekitar 5.343 jiwa dengan
-                kepadatan 1.133,19 jiwa/km². Dengan jumlah yang cukup banyak tentu di Pemerintah Desa memerlukan
-                teknologi dalam menangani khususnya di bidang administrasi dan informasi Desa.</p>
+            <p class="fs-3">Tentang Desa Ciomas</p>
+            <p class="text-sm-start">Desa Ciomas, kecamatan Panjalu, kabupaten Ciamis, provinsi Jawa Barat 46264 memiliki 11 wilayah administratif (Dusun Ciomas, Ciceuri, Baros, Cidahu, Ciomas Landeuh, Hanjatan, Cikareo, Bojong Sari, Bojong Sereh, Cadasngampar, Cangkuang), dengan luas wilayah 8 km2 , jumlah penduduk 7705, dan kepadatan 963 jiwa/km2.</p>
             <p></p>
         </div>
     </div>

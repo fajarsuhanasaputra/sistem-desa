@@ -134,7 +134,7 @@
 
                                                     <div class="row">
                                                         <h3>Selamat Datang {{ Auth::user()->name }}.</h3>
-                                                        <img src="{{ asset('dashboard/alurpengajuan.png') }}"
+                                                        <img src="{{ asset('dashboard/aspirasi.png') }}"
                                                             class="card-img-top" alt="...">
                                                     </div>
                                                 @endcan

@@ -2,10 +2,10 @@
     <div class="main-sidebar sidebar-style-2">
         <aside id="sidebar-wrapper">
             <div class="sidebar-brand">
-                <a href="{{ route('home') }}">SAID</a>
+                <a href="{{ route('home') }}">SIPAD</a>
             </div>
             <div class="sidebar-brand sidebar-brand-sm">
-                <a href="{{ route('home') }}">SA</a>
+                <a href="{{ route('home') }}">SIPAD</a>
             </div>
             <ul class="sidebar-menu">
                 <li class="menu-header">Dashboard</li>
@@ -24,7 +24,17 @@
                     <a href="#" class="nav-link has-dropdown"><i class="far fa-file-alt"></i>
                         <span>Pengajuan Surat</span></a>
                     <ul class="dropdown-menu">
+                        <li><a class="nav-link" href="#">Permohonan KK</a>
+                        </li>
+                        <li><a class="nav-link" href="#">Permohonan KTP</a>
+                        </li>
                         <li><a class="nav-link" href="{{ route('sktm') }}">SKTM</a>
+                        </li>
+                        <li><a class="nav-link" href="#">Suket Lahir</a>
+                        </li>
+                        <li><a class="nav-link" href="#">Suket Menikah</a>
+                        </li>
+                        <li><a class="nav-link" href="#">SKCK</a>
                         </li>
                         <li><a class="nav-link" href="{{ route('slipgaji') }}">Slip Gaji</a>
                         </li>
@@ -47,10 +57,10 @@
                 <div class="main-sidebar sidebar-style-2">
                     <aside id="sidebar-wrapper">
                         <div class="sidebar-brand">
-                            <a href="{{ route('home') }}">SAID</a>
+                            <a href="{{ route('home') }}">SIPAD</a>
                         </div>
                         <div class="sidebar-brand sidebar-brand-sm">
-                            <a href="{{ route('home') }}">SA</a>
+                            <a href="{{ route('home') }}">SIPAD</a>
                         </div>
                         <ul class="sidebar-menu">
                             <li class="menu-header">Dashboard</li>
@@ -66,6 +76,10 @@
                                 <a href="#" class="nav-link has-dropdown"><i class="far fa-file-alt"></i>
                                     <span>Pengajuan Surat</span></a>
                                 <ul class="dropdown-menu">
+                                    <li><a class="nav-link" href="#">Permohonan KK</a>
+                                    </li>
+                                    <li><a class="nav-link" href="#">Permohonan KTP</a>
+                                    </li>
                                     <li><a class="nav-link" href="{{ route('pengajuansktm') }}">SKTM</a>
                                     </li>
                                     <li><a class="nav-link" href="{{ route('pengajuanslipgaji') }}">Slip Gaji</a>
